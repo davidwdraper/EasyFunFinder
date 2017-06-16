@@ -12,6 +12,7 @@ describe('Counter component', () => {
         fixture.detectChanges();
     });
 
+    // test change for git
     it('should display a title', async(() => {
         const titleText = fixture.nativeElement.querySelector('h1').textContent;
         expect(titleText).toEqual('Counter');
