@@ -1,0 +1,1 @@
+Scaffold-DbContext "Server=tcp:effdb.database.windows.net,1433;Initial Catalog=EasyFunFinder;Persist Security Info=False;User ID=davidwdraper@effdb.database.windows.net;Password=Caren4Me1010;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models

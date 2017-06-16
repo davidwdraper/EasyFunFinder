@@ -1,0 +1,16 @@
+﻿<div class="result-view">
+    <div id="map" *ngIf="showMap">
+        <gmap></gmap>
+    </div>
+    hello
+    <h4>{{resultTitle}}</h4>
+    <div id="#mapHeader">
+        <span>Map&nbsp;</span>
+        <label class="switch">
+            <input type="checkbox" checked="checked" (change)="onShowMap($event)">
+            <div class="slider round"></div>
+        </label>
+        <span>Radius:&nbsp;{{radius}} miles</span>
+    </div>
+    <result-view-factory *ngIf="!showMap"></result-view-factory>
+</div>

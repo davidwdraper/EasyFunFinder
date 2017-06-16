@@ -1,0 +1,62 @@
+.header {
+    background-color: black;
+    color: white;
+    height: 30px;
+    padding: 4px 4px 4px 8px;
+}
+
+#leftcolumn {
+    width: 0; /* don't show when narrow */
+    position: fixed;
+    left: -200px;
+}
+
+#rightcolumn {
+    color: #080808;
+    position: fixed;
+    top: 40px;
+    left: 0px;
+}
+
+#burger {
+    position:fixed;
+    top: 0;
+    right: 0;
+}
+
+/* if WIDER then 480 */
+@media screen and (min-width: 480px) {
+    .header {
+        background-color: black;
+        color: white;
+        height: 40px;
+        padding: 8px;
+    }
+
+    #leftcolumn {
+        width: 140px;
+        background-color: black;
+        color: white;
+        position: fixed;
+        top: 41px;
+        left: 0px;
+        padding: 40px 6px 6px 24px;
+        min-height: 400px;
+    }
+
+    #rightcolumn {
+        color: #080808;
+        position: fixed;
+        top: 40px;
+        left: 140px;
+        width: 100%;
+        padding: 12px;
+    }
+
+    #burger {
+        position: fixed;
+        width: 0;
+        left: -200px;
+    }
+}
+
